@@ -213,6 +213,60 @@ img{
   content: '';
 }
 
+/* Promo */
+.buy-button{
+  width: 260px;
+  height: 51px;
+  text-align: center;
+}
+.promo {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.promo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo-img {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Runners */
+.runners {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url(../img/runners.jpg);
+  margin-right: auto;
+  color:#fff;
+}
+
+.runners .promo-lead-cta{
+  margin-left: auto;
+ }
+
+
+
+.runners .lead-cta-heading {
+  color: #FFF;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 60px */
+}
+.runners .lead-cta-text {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-color: #fff;
+  line-height: 150%; /* 24px */
+}
+
 
 
 /* RETINA  */
@@ -224,7 +278,10 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   .hero{
-    background-image: url(../img/intro-bg@2x.jpg)
+    background-image: url(../img/intro-bg@2x.jpg);
+  }
+  .runners{
+    background-image: url(../img/runners@2x.jpg);
   }
 }
 
